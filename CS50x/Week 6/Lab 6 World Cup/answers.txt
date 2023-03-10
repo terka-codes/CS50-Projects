@@ -1,0 +1,29 @@
+Times:
+
+10 simulations: 0m0.028s
+100 simulations: 0m0.030s
+1000 simulations: 0m0.034s
+10000 simulations: 0m0.098s
+100000 simulations: 0m0.717s
+1000000 simulations: 0m8.171s
+
+Questions:
+
+Which predictions, if any, proved incorrect as you increased the number of simulations?:
+
+The first one, with the smallest number of matches, because it runs only a few times,
+which means the answers won't be precise
+
+Suppose you're charged a fee for each second of compute time your program uses.
+After how many simulations would you call the predictions "good enough"?: TODO
+
+It seems like the number of 1 000 is quite accurate; the percentages are just slightly
+different if not the same as the ones with ten times or 100 times more matches
+
+Here are included time for both of the files: (It din't want to let my code pass when the both walues were up there.)
+10 simulations: 0m0.028s
+100 simulations:  0m0.030s and 0m0.039s
+1000 simulations: 0m0.034 and 0m0.036s
+10000 simulations: 0m0.098s and 0m0.123s
+100000 simulations: 0m0.717s and 0m0.719s
+1000000 simulations: 0m8.171s and 0m7.902s
