@@ -9,11 +9,11 @@
 /* Main header */
 .header {
   z-index: 2;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.75) 60%, transparent);
 }
 
 /* Navigation bar */
 .my-mobile-navbar {
-  margin: 0;
   text-transform: uppercase;
 }
 
@@ -22,4 +22,20 @@
   position: relative;
   height: 100vh;
   background-color: black;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.75) 90%,
+      transparent
+    );
+  }
+
+  .my-mobile-navbar {
+    margin: 0;
+    text-align: center;
+    display: block;
+  }
 }
