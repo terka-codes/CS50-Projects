@@ -12,8 +12,9 @@
 }
 
 /* Navigation bar */
-#navbarNav {
-  margin: 0 auto;
+.my-mobile-navbar {
+  margin: 0;
+  text-transform: uppercase;
 }
 
 /* Hero section */
